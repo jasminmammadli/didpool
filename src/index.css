@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter-100";
+  src: url(./assets/fonts/Inter-Thin.ttf);
+}
+@font-face{
+  font-family: "Inter-200";
+  src: url(./assets/fonts/Inter-ExtraLight.ttf);
+}
+@font-face{
+  font-family: "Inter-300";
+  src: url(./assets/fonts/Inter-Light.ttf);
+}
+@font-face{
+  font-family: "Inter-400";
+  src: url(./assets/fonts/Inter-Regular.ttf);
+}
+@font-face{
+  font-family: "Inter-500";
+  src: url(./assets/fonts/Inter-Medium.ttf);
+}
+@font-face{
+  font-family: "Inter-600";
+  src: url(./assets/fonts/Inter-SemiBold.ttf);
+}
+@font-face{
+  font-family: "Inter-700";
+  src: url(./assets/fonts/Inter-Bold.ttf);
+}
+@font-face{
+  font-family: "Inter-800";
+  src: url(./assets/fonts/Inter-ExtraBold.ttf);
+}
+@font-face{
+  font-family: "Inter-900";
+  src: url(./assets/fonts/Inter-Black.ttf);
+}
+
+@layer components{
+  .pricing-section, .about-section{
+    background: #fafafa url(./assets/img/pricing.png) bottom/cover;
+  }
+  .pricing-section-reverse,.about-section-reverse{
+    background: #fafafa url(./assets/img/pricing.png) bottom/cover;
+  }
+  .girl-section{
+    background: url(./assets/img/about.jpg) center/cover;
+  }
+}
