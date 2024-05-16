@@ -357,25 +357,25 @@ function About() {
                   <span className="w-6 h-6 flex justify-center items-center bg-primary-light rounded-lg">
                     <IoMdCheckmark className="text-xs text-majorelle" />
                   </span>
-                  <span className="fonr-[Inter-400] text-lg text-white">No obligation</span>
+                  <span className="font-[Inter-400] text-lg text-white">No obligation</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="w-6 h-6 flex justify-center items-center bg-primary-light rounded-lg">
                     <IoMdCheckmark className="text-xs text-majorelle" />
                   </span>
-                  <span className="fonr-[Inter-400] text-lg text-white">Free onboarding </span>
+                  <span className="font-[Inter-400] text-lg text-white">Free onboarding </span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="w-6 h-6 flex justify-center items-center bg-primary-light rounded-lg">
                     <IoMdCheckmark className="text-xs text-majorelle" />
                   </span>
-                  <span className="fonr-[Inter-400] text-lg text-white">14 day free trial</span>
+                  <span className="font-[Inter-400] text-lg text-white">14 day free trial</span>
                 </li>
                 <li className="flex items-center gap-4">
                   <span className="w-6 h-6 flex justify-center items-center bg-primary-light rounded-lg">
                     <IoMdCheckmark className="text-xs text-majorelle" />
                   </span>
-                  <span className="fonr-[Inter-400] text-lg text-white">Full features</span>
+                  <span className="font-[Inter-400] text-lg text-white">Full features</span>
                 </li>
               </ul>
             </div>
